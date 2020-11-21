@@ -1,3 +1,158 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  background-image: url("background-image.jpg");
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
+header {
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 24px;
+  width: 100%;
+  /* position: fixed; */
+}
+
+#home {
+  line-height: 75px;
+}
+
+h1, .brand {
+  background-color: darkcyan;
+  /* height: 45px; */
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+h2 {
+  margin-left: 15px;
+  color: darkcyan;
+}
+
+ul li{
+  float: right;
+  list-style: none;
+}
+
+h3 {
+  font-size: 10px;
+  text-align: center;
+  background-color: darkcyan;
+}
+
+.col-md-8 {
+  background-color: white;
+  padding: 11px;
+}
+
+.aboutMe {
+  float: left;
+  margin-right: 24px;
+}
+
+.card-size {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: grey;
+  border-top: 5px solid darkcyan;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: lightgray;
+  text-align: center;
+  height: 45px;
+}
+
+.card-title {
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  bottom: 8px;
+  background-color: darkcyan;
+}
+
+.jl {
+  margin-left: 100px;
+}
+
+.portfolio {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.portColLeft {
+  float: left;
+  width: 50%;
+  align-content: center;
+  text-align: center;
+}
+
+.portColRight {
+  float: right;
+  width: 50%;
+  align-content: center;
+  text-align: center;
+}
+
+/* Contact Form below
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: darkcyan;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+@media screen and (max-width: 640px) {
+    .row {
+        align-content: center;
+    }
+}
+
+/* links */
+a:link {
+  color: black;
+}
+
+/* a:hover {
+  color: blue;
+}
+
+a:active {
+  color: green;
+} */
+
+/* not mine */
 .App {
   text-align: center;
 }
