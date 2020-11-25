@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar.js";
 import Footer from "./components/Footer.js";
 import About from "./pages/About.js";
+import Portfolio from "./pages/Portfolio.js";
+import Contact from "./pages/Contact.js";
 
 import {
   BrowserRouter as Router,
